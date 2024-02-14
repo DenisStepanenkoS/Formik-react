@@ -1,0 +1,85 @@
+.inputFields{
+    margin-top: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
+    grid-template-rows: auto;
+    gap: 20px; 
+}
+.inputField{
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.signUpForm{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(48, 201, 252);
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+.inputFields label{
+    position: relative;
+}
+.error{
+    position: absolute;
+    top: calc(100% - 20px);
+    left: 0px;
+    width: 100%;
+    color: red;
+}
+.inputHead{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.signUpFormMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+}
+
+.createAccountHeader{
+    font-size: xxx-large;
+    font-weight: bold;
+}
+
+.inputHeadText{
+    font-weight: bold;
+
+}
+
+.submitButton{
+    width: 100%;
+    border: 1px solid green;
+    background-color: lightgreen;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.signUpFormHeader{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+}
+
+.linkLoginForm{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border: 1px white solid;
+    padding: 10px;
+    border-radius: 10px;
+    
+}

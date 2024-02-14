@@ -1,0 +1,60 @@
+.inputFields{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.inputField{
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.loginFormMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    color: white;
+}
+.loginFormHeader{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 200px
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(48, 201, 252);
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.linkSignUpForm{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border: 1px white solid;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.submitButton{
+    width: 100%;
+    border: 1px solid green;
+    background-color: lightgreen;
+    height: 50px;
+    margin-top: 20px;
+}
+.LoginHeader{
+    font-size: x-large;
+    font-weight: bold;
+}
